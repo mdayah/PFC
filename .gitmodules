@@ -1,0 +1,9 @@
+[submodule "VBASIC"]
+	path = VBASIC
+	url = https://github.com/mdayah/VBASIC
+[submodule "LIB"]
+	path = LIB
+	url = https://github.com/mdayah/LIB
+[submodule "NOVA"]
+	path = NOVA
+	url = https://github.com/mdayah/NOVA
