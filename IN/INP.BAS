@@ -13,12 +13,12 @@ DECLARE SUB ProHdng ()
 DECLARE SUB ProLite (m, p)
 DECLARE SUB ProFile ()
 
-'$INCLUDE: '\Work\PFC\BI\Library.DEC'
-'$INCLUDE: '\Work\PFC\BI\Products.REC'
-'$INCLUDE: '\Work\PFC\BI\ProIndex.REC'
-'$INCLUDE: '\Work\PFC\BI\Material.REC'
-'$INCLUDE: '\Work\PFC\BI\MatIndex.REC'
-'$INCLUDE: '\Work\PFC\BI\Recipes.REC'
+'$INCLUDE: '..\BI\Library.DEC'
+'$INCLUDE: '..\BI\Products.REC'
+'$INCLUDE: '..\BI\ProIndex.REC'
+'$INCLUDE: '..\BI\Material.REC'
+'$INCLUDE: '..\BI\MatIndex.REC'
+'$INCLUDE: '..\BI\Recipes.REC'
 
    'record variables
     COMMON SHARED Pro AS Products

@@ -52,19 +52,19 @@ DECLARE SUB ProInit ()
 DECLARE SUB Customer ()
 DECLARE SUB Products ()
 
-'$INCLUDE: '\Work\PFC\BI\Library.DEC'
-'$INCLUDE: '\Work\PFC\BI\Accounts.REC'
-'$INCLUDE: '\Work\PFC\BI\Receipts.REC'
-'$INCLUDE: '\Work\PFC\BI\Products.REC'
-'$INCLUDE: '\Work\PFC\BI\ProIndex.REC'
-'$INCLUDE: '\Work\PFC\BI\Material.REC'
-'$INCLUDE: '\Work\PFC\BI\MatIndex.REC'
-'$INCLUDE: '\Work\PFC\BI\Recipes.REC'
-'$INCLUDE: '\Work\PFC\BI\Customer.REC'
-'$INCLUDE: '\Work\PFC\BI\CusIndex.REC'
-'$INCLUDE: '\Work\PFC\BI\Orders.REC'
-'$INCLUDE: '\Work\PFC\BI\OrdIndex.REC'
-'$INCLUDE: '\Work\PFC\BI\SalIndex.REC'
+'$INCLUDE: '..\BI\Library.DEC'
+'$INCLUDE: '..\BI\Accounts.REC'
+'$INCLUDE: '..\BI\Receipts.REC'
+'$INCLUDE: '..\BI\Products.REC'
+'$INCLUDE: '..\BI\ProIndex.REC'
+'$INCLUDE: '..\BI\Material.REC'
+'$INCLUDE: '..\BI\MatIndex.REC'
+'$INCLUDE: '..\BI\Recipes.REC'
+'$INCLUDE: '..\BI\Customer.REC'
+'$INCLUDE: '..\BI\CusIndex.REC'
+'$INCLUDE: '..\BI\Orders.REC'
+'$INCLUDE: '..\BI\OrdIndex.REC'
+'$INCLUDE: '..\BI\SalIndex.REC'
 
    'record variables
 	COMMON SHARED Pro AS Products

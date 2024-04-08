@@ -15,16 +15,16 @@ DECLARE SUB WinOrdr (f, T)
 DECLARE SUB CusLite (m, p)
 DECLARE SUB OrdShow ()
 
-'$INCLUDE: '\Work\PFC\BI\Library.Dec'
-'$INCLUDE: '\Work\PFC\BI\Products.REC'
-'$INCLUDE: '\Work\PFC\BI\ProIndex.REC'
-'$INCLUDE: '\Work\PFC\BI\Customer.Rec'
-'$INCLUDE: '\Work\PFC\BI\CusIndex.Rec'
-'$INCLUDE: '\Work\PFC\BI\Orders.Rec'
-'$INCLUDE: '\Work\PFC\BI\OrdIndex.Rec'
-'$INCLUDE: '\Work\PFC\BI\Material.REC'
-'$INCLUDE: '\Work\PFC\BI\MatIndex.REC'
-'$INCLUDE: '\Work\PFC\BI\Recipes.REC'
+'$INCLUDE: '..\BI\Library.Dec'
+'$INCLUDE: '..\BI\Products.REC'
+'$INCLUDE: '..\BI\ProIndex.REC'
+'$INCLUDE: '..\BI\Customer.Rec'
+'$INCLUDE: '..\BI\CusIndex.Rec'
+'$INCLUDE: '..\BI\Orders.Rec'
+'$INCLUDE: '..\BI\OrdIndex.Rec'
+'$INCLUDE: '..\BI\Material.REC'
+'$INCLUDE: '..\BI\MatIndex.REC'
+'$INCLUDE: '..\BI\Recipes.REC'
 
    'record variables
 	COMMON SHARED Pro AS Products
